@@ -362,8 +362,8 @@
 </footer>
 
 <script>
-  // Points every Download button at your new VukaApp GitHub Releases APK link.
-  var DOWNLOAD_URL = 'https://github.com/STARBOYRSA7/VukaApp/releases/download/v1.0.0/app-debug.apk';
+  // Points every Download button directly to your specified APK release link.
+  var DOWNLOAD_URL = 'https://github.com/STARBOYRSA7/VUKA-WEB/releases/download/VUKA/app-debug.apk';
 
   document.querySelectorAll('[data-download]').forEach(function(btn){
     btn.setAttribute('href', DOWNLOAD_URL);
